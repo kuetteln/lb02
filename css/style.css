@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #d6d8d9;
+}
+div#carouselExampleIndicators.carousel.slide{
+    width: 50%;
+    margin-left: 25%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.topnav {
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+nav.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+nav.topnav a:hover {
+    background-color: #d6d8d9;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+nav.topnav a.active {
+    background-color: #d6d8d9;
+    color: black;
+}
+section.card {
+    display: flex;
+    flex-direction: row;
+
+}
+.card {
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 130%;
+    color: #333;
+}
+embed {
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+p.footer {
+    color: white;
+
+}
+footer {
+    padding: 20px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+
+
+
+}
+section.steck {
+    display: flex;
+    justify-content: space-around;
+}
+.btn-primary {
+    background-color: #333;
+    border-color: #333;
+    margin-right: 0;
+    text-align: center;
+
+}
+.btn-primary:hover {
+    background-color: #d6d8d9;
+    border-color: #d6d8d9;
+}
+.btn-primary:active {
+    border-color: #d6d8d9;
+}
+div.center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+
+
+
